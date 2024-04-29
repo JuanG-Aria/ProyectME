@@ -329,5 +329,342 @@ body {
     justify-items: center;
   }
 }
+@media screen and (min-width: 501px) {
+  header {
+    color: var(--color-principal);
+    font-size: 1rem;
+    background-image: url(/img/manocorazon3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: bold;
+    text-align: center;
+    font-family: brittany;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 2rem;
+    box-shadow: 1rem 1rem 3rem #c55347;
+    border-radius: 1rem;
+  }
+  header .encabezado-principal {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 0;
+  }
+  header .encabezado-principal .item-encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  header .encabezado-principal .item-encabezado img {
+    width: 70%;
+    height: 70%;
+    border-radius: 1rem;
+  }
+  header .encabezado-principal .item-encabezado a {
+    color: var(--color-principal);
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  header .encabezado-principal .item-encabezado #banner2 {
+    display: flex;
+  }
+  header .encabezado-principal .item-encabezado #links {
+    color: #993024;
+    font-family: brittany;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+  }
+  header .encabezado-principal .item-encabezado #links h1 {
+    font-weight: 900;
+  }
+  header .encabezado-principal .item-encabezado .text-banner {
+    display: grid;
+  }
+  header .encabezado-principal .item-encabezado .navbar, header .encabezado-principal .item-encabezado #banner {
+    display: none;
+  }
+  body h2 {
+    color: #E59890;
+    font-family: brittany;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: #c55347;
+    background-position: center center;
+    background-size: 40% 60%;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+  }
+  body .contenido .contenido-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  body .contenido .contenido-img .principal {
+    display: flex;
+    justify-content: center;
+    font-family: brittany;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 0.5rem;
+  }
+  body .contenido .contenido-img .principal a {
+    text-decoration: none;
+  }
+  body .contenido .contenido-img .principal img {
+    height: 27rem;
+    width: 27rem;
+    border-radius: 1rem;
+  }
+  body .contenido .contenido-img .principal p {
+    position: absolute;
+    color: black;
+    background-color: rgba(197, 84, 71, 0.5019607843);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+  }
+  body .contenido .contenido-text {
+    display: block;
+    justify-content: center;
+  }
+  body .contenido .contenido-text p {
+    background-color: rgba(197, 84, 71, 0.5019607843);
+    margin: 0 2rem;
+  }
+  body .contenido .contenido-text .somos-promo {
+    margin-bottom: 0.5rem;
+  }
+  body h3 {
+    color: #E59890;
+    background-color: #c55347;
+    margin: 0 2rem;
+    font-family: brittany;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 1rem;
+  }
+  body a {
+    color: #993024;
+    font-family: brittany;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+  }
+  body .contenedor-diseños {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-items: center;
+    padding-top: 1rem;
+    margin: 0 2rem;
+  }
+  body .contenedor-diseños .img-diseños {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  body .contenedor-diseños .img-diseños img {
+    height: 25rem;
+    width: 25rem;
+  }
+  body .contenedor-diseños h3 {
+    padding: 1rem;
+  }
+  body .text-diseños {
+    display: inline;
+    justify-content: center;
+    text-decoration: none;
+  }
+  body .text-diseños div {
+    display: flex;
+    justify-content: center;
+  }
+  body .text-diseños div ul {
+    list-style: none;
+    background-color: var(--color-letra-subtitle);
+    border-radius: 2rem;
+    padding: 0;
+    margin: 0rem 2rem;
+  }
+  body .contenedor-text-lisos {
+    display: inline;
+    justify-content: center;
+    text-decoration: none;
+  }
+  body .contenedor-text-lisos h3 {
+    padding: 1rem;
+  }
+  body .contenedor-text-lisos .colors {
+    background-color: var(--color-letra-subtitle);
+    margin: 0rem 2rem;
+    border-radius: 2rem;
+  }
+  body .contenedor-lisos {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-items: center;
+    padding-top: 1rem;
+    margin: 0 2rem;
+  }
+  body .contenedor-lisos .img-lisos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  body .contenedor-lisos .img-lisos img {
+    height: 25rem;
+    width: 25rem;
+  }
+  body .que-es-semi, body .otra-opcion, body .comentarios, body .somos {
+    margin: 0 2rem;
+    color: black;
+    text-align: center;
+    font-family: var(--font-family-alterna);
+    font-size: 1rem;
+  }
+  body .colors, body .list-diseños {
+    font-family: var(--font-family-alterna);
+    font-size: 1rem;
+    text-align: center;
+  }
+  body .comentarios {
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+  }
+  body .comentarios .caja-de-comentarios textarea, body .comentarios .correo-enviar input {
+    width: 35rem;
+    border: #c55347 solid 0.1rem;
+  }
+  body .comentarios .correo-enviar input {
+    height: 1.5rem;
+    margin-bottom: 0.3rem;
+  }
+  body .masajes p, body .nuestros-masajes p, body .precios-masajes p {
+    display: flex;
+    margin: 1rem 2rem;
+    font-family: var(--font-family-alterna);
+  }
+  body .precios-masajes {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family-alterna);
+    margin-bottom: 1.5rem;
+  }
+  body .podologia p, body .podologia-que-es p {
+    display: flex;
+    margin: 1rem 2rem;
+    font-family: var(--font-family-alterna);
+  }
+  body .contenedor-promociones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+  }
+  body .contenedor-promociones img {
+    display: flex;
+    justify-content: center;
+    width: 25rem;
+    height: 25rem;
+    margin: 1rem 2rem;
+  }
+  body .contenedor-promociones p {
+    display: flex;
+    margin: 1rem 2rem;
+    font-family: var(--font-family-alterna);
+  }
+  body .contenedor-promociones h3 {
+    font-family: var(--font-family-alterna);
+  }
+  body .contenedor-promociones .disclaimer {
+    display: flex;
+    justify-content: center;
+    background-color: #E59890;
+    margin: 1rem 0;
+  }
+  body .contenedor-promociones .selector-descuento {
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+  }
+  body .contenedor-promociones .selector-descuento .itemm {
+    flex-wrap: wrap;
+  }
+  body .contenedor-promociones .promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .contenedor-promociones .promo img {
+    display: flex;
+    justify-content: center;
+  }
+  body .contenedor-promociones .quien-sos {
+    display: flex;
+    justify-content: center;
+  }
+  body .somos p {
+    display: flex;
+    margin: 1rem 2rem;
+    font-family: var(--font-family-alterna);
+  }
+  body .mapa {
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem;
+  }
+  body .mapa iframe {
+    width: 27rem;
+    height: 27rem;
+    margin-top: 0.5rem;
+  }
+  footer {
+    margin-top: 0.5rem;
+    display: flex;
+    background-color: #c55347;
+  }
+  footer .pie-de-pagina {
+    display: flex;
+    width: 100%;
+  }
+  footer .pie-text {
+    display: flex;
+    flex-basis: 65%;
+    justify-content: center;
+  }
+  footer .pie-text h3 {
+    margin: 1rem 0;
+  }
+  footer .pie-list {
+    display: flex;
+    justify-content: center;
+    flex-basis: 20%;
+    align-items: center;
+  }
+  footer .pie-list img {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+    justify-items: center;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
