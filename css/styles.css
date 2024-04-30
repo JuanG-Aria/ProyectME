@@ -13,6 +13,22 @@
   --font-family-alterna: "Dancing Script", cursive;
 }
 
+header #links:hover {
+  text-decoration: underline;
+  font-size: 110%;
+  color: var(--background-color-subtitle);
+}
+
+body a p:hover {
+  text-decoration: underline;
+  font-size: 110%;
+}
+body a img:hover {
+  background-color: var(--background-color-subtitle);
+  padding: 0.5rem;
+  filter: opacity(40%);
+}
+
 @font-face {
   font-family: brittany;
   src: url("/font/BrittanySignature.ttf");

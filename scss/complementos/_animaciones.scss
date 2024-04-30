@@ -1,0 +1,24 @@
+header{
+    #links:hover{
+        
+            text-decoration: underline;
+            font-size: 110%;
+            color: var(--background-color-subtitle);
+        
+        
+    }
+}
+body{
+    a{
+        p:hover{
+            text-decoration: underline;
+            font-size: 110%;
+        }
+        
+        img:hover{
+            background-color: var(--background-color-subtitle);
+            padding: 0.5rem;
+            filter: opacity(40%);
+        }
+    }
+}
