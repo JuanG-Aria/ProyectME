@@ -290,6 +290,41 @@ body{
                 font-family: var(--font-family-alterna);
             }
         }
+        .podologia, .podologia-que-es{
+            margin: 0 2rem;
+            .contenedor-img-pod{
+                display: flex;
+                justify-content: center;
+                img{
+                    height: 70%;
+                    width: 70%;
+                }
+                #benf{
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+        .benef-mas{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 2rem;
+            img{
+                height: 50%;
+                width: 50%;
+                margin-bottom: 1rem;
+            }
+        }
+        .creadora{
+            display: flex;
+            justify-content: center;
+            margin: 0 2rem;
+            margin-bottom: 1rem;
+            img{
+                height: 25rem;
+                width: 35rem;
+            }
+        }
         .mapa {
             margin: 0 2rem;
         }
@@ -640,6 +675,41 @@ body{
                 display: flex;
                 margin: 1rem 2rem;
                 font-family: var(--font-family-alterna);
+            }
+        }
+        .podologia, .podologia-que-es{
+            margin: 0 2rem;
+            .contenedor-img-pod{
+                display: flex;
+                justify-content: center;
+                img{
+                    height: 70%;
+                    width: 70%;
+                }
+                #benf{
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+        .benef-mas{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 2rem;
+            img{
+                height: 50%;
+                width: 50%;
+                margin-bottom: 1rem;
+            }
+        }
+        .creadora{
+            display: flex;
+            justify-content: center;
+            margin: 0 2rem;
+            margin-bottom: 1rem;
+            img{
+                height: 25rem;
+                width: 35rem;
             }
         }
         .mapa {

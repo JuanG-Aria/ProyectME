@@ -28,6 +28,13 @@ body a img:hover {
   padding: 0.5rem;
   filter: opacity(40%);
 }
+body a:active {
+  text-decoration: underline;
+  background: linear-gradient(to right, #e62a69, #f53d80, #f76fa1);
+  border-radius: 2rem;
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+}
 
 @font-face {
   font-family: brittany;
@@ -305,6 +312,41 @@ body {
     display: flex;
     margin: 1rem 2rem;
     font-family: var(--font-family-alterna);
+  }
+  body .podologia, body .podologia-que-es {
+    margin: 0 2rem;
+  }
+  body .podologia .contenedor-img-pod, body .podologia-que-es .contenedor-img-pod {
+    display: flex;
+    justify-content: center;
+  }
+  body .podologia .contenedor-img-pod img, body .podologia-que-es .contenedor-img-pod img {
+    height: 70%;
+    width: 70%;
+  }
+  body .podologia .contenedor-img-pod #benf, body .podologia-que-es .contenedor-img-pod #benf {
+    margin-bottom: 1rem;
+  }
+  body .benef-mas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 2rem;
+  }
+  body .benef-mas img {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+  body .creadora {
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem;
+    margin-bottom: 1rem;
+  }
+  body .creadora img {
+    height: 25rem;
+    width: 35rem;
   }
   body .mapa {
     margin: 0 2rem;
@@ -640,6 +682,41 @@ body {
     display: flex;
     margin: 1rem 2rem;
     font-family: var(--font-family-alterna);
+  }
+  body .podologia, body .podologia-que-es {
+    margin: 0 2rem;
+  }
+  body .podologia .contenedor-img-pod, body .podologia-que-es .contenedor-img-pod {
+    display: flex;
+    justify-content: center;
+  }
+  body .podologia .contenedor-img-pod img, body .podologia-que-es .contenedor-img-pod img {
+    height: 70%;
+    width: 70%;
+  }
+  body .podologia .contenedor-img-pod #benf, body .podologia-que-es .contenedor-img-pod #benf {
+    margin-bottom: 1rem;
+  }
+  body .benef-mas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 2rem;
+  }
+  body .benef-mas img {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+  body .creadora {
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem;
+    margin-bottom: 1rem;
+  }
+  body .creadora img {
+    height: 25rem;
+    width: 35rem;
   }
   body .mapa {
     display: flex;
