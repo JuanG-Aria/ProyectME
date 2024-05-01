@@ -5,52 +5,10 @@
   box-sizing: border-box;
 }
 
-:root {
-  --color-principal: #ec5749;
-  --color-letra-subtitle: #E59890;
-  --background-color-subtitle: #c55347;
-  --font-family-principal: brittany;
-  --font-family-alterna: "Dancing Script", cursive;
-}
-
-header #links:hover {
-  text-decoration: underline;
-  font-size: 110%;
-  color: var(--background-color-subtitle);
-}
-header #banner2 li:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--color-principal);
-  font-size: 110%;
-}
-
-body a p:hover {
-  text-decoration: underline;
-  font-size: 110%;
-}
-body a img:hover {
-  background-color: var(--background-color-subtitle);
-  padding: 0.5rem;
-  filter: opacity(40%);
-}
-body a:active {
-  text-decoration: underline;
-  background: linear-gradient(to right, var(--color-principal), #e48ead, var(--background-color-subtitle));
-  border-radius: 2rem;
-  transform-origin: left;
-  transition: transform 0.5s ease-in-out;
-}
-
 @font-face {
   font-family: brittany;
   src: url("/font/BrittanySignature.ttf");
 }
-body {
-  background-image: url(/img/fondo-rosa.avif);
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 @media screen and (max-width: 500px) {
   header {
     color: var(--color-principal);
@@ -111,6 +69,72 @@ body {
     border-radius: 1.3rem;
     padding: 0rem 1rem;
   }
+}
+@media screen and (min-width: 501px) {
+  header {
+    color: var(--color-principal);
+    font-size: 1rem;
+    background-image: url(/img/manocorazon3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: bold;
+    text-align: center;
+    font-family: brittany;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 2rem;
+    box-shadow: 1rem 1rem 3rem #c55347;
+    border-radius: 1rem;
+  }
+  header .encabezado-principal {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 0;
+  }
+  header .encabezado-principal .item-encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  header .encabezado-principal .item-encabezado img {
+    width: 70%;
+    height: 70%;
+    border-radius: 1rem;
+  }
+  header .encabezado-principal .item-encabezado a {
+    color: var(--color-principal);
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  header .encabezado-principal .item-encabezado #banner2 {
+    display: flex;
+  }
+  header .encabezado-principal .item-encabezado #links {
+    color: #993024;
+    font-family: brittany;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+  }
+  header .encabezado-principal .item-encabezado #links h1 {
+    font-weight: 900;
+  }
+  header .encabezado-principal .item-encabezado .text-banner {
+    display: grid;
+  }
+  header .encabezado-principal .item-encabezado .navbar, header .encabezado-principal .item-encabezado #banner {
+    display: none;
+  }
+}
+body {
+  background-image: url(/img/fondo-rosa.avif);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 500px) {
   body h2 {
     color: #E59890;
     font-family: brittany;
@@ -361,94 +385,8 @@ body {
     height: 27rem;
     margin-top: 0.5rem;
   }
-  footer {
-    margin-top: 0.5rem;
-    display: flex;
-    background-color: #c55347;
-  }
-  footer .pie-de-pagina {
-    display: flex;
-    width: 100%;
-  }
-  footer .pie-text {
-    display: flex;
-    flex-basis: 65%;
-    justify-content: center;
-  }
-  footer .pie-text h3 {
-    margin: 1rem 0;
-  }
-  footer .pie-list {
-    display: flex;
-    justify-content: center;
-    flex-basis: 20%;
-    align-items: center;
-  }
-  footer .pie-list img {
-    display: flex;
-    width: 3rem;
-    height: 3rem;
-    margin-right: 0.5rem;
-    justify-items: center;
-  }
 }
 @media screen and (min-width: 501px) {
-  header {
-    color: var(--color-principal);
-    font-size: 1rem;
-    background-image: url(/img/manocorazon3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-weight: bold;
-    text-align: center;
-    font-family: brittany;
-    display: flex;
-    justify-content: center;
-    margin: 1rem 2rem;
-    box-shadow: 1rem 1rem 3rem #c55347;
-    border-radius: 1rem;
-  }
-  header .encabezado-principal {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr 0;
-  }
-  header .encabezado-principal .item-encabezado {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-  }
-  header .encabezado-principal .item-encabezado img {
-    width: 70%;
-    height: 70%;
-    border-radius: 1rem;
-  }
-  header .encabezado-principal .item-encabezado a {
-    color: var(--color-principal);
-    text-decoration: none;
-    font-size: 1.5rem;
-  }
-  header .encabezado-principal .item-encabezado #banner2 {
-    display: flex;
-  }
-  header .encabezado-principal .item-encabezado #links {
-    color: #993024;
-    font-family: brittany;
-    font-size: 1.5rem;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-  }
-  header .encabezado-principal .item-encabezado #links h1 {
-    font-weight: 900;
-  }
-  header .encabezado-principal .item-encabezado .text-banner {
-    display: grid;
-  }
-  header .encabezado-principal .item-encabezado .navbar, header .encabezado-principal .item-encabezado #banner {
-    display: none;
-  }
   body h2 {
     color: #E59890;
     font-family: brittany;
@@ -733,6 +671,8 @@ body {
     height: 27rem;
     margin-top: 0.5rem;
   }
+}
+@media screen and (max-width: 500px) {
   footer {
     margin-top: 0.5rem;
     display: flex;
@@ -763,6 +703,73 @@ body {
     margin-right: 0.5rem;
     justify-items: center;
   }
+}
+@media screen and (min-width: 501px) {
+  footer {
+    margin-top: 0.5rem;
+    display: flex;
+    background-color: #c55347;
+  }
+  footer .pie-de-pagina {
+    display: flex;
+    width: 100%;
+  }
+  footer .pie-text {
+    display: flex;
+    flex-basis: 65%;
+    justify-content: center;
+  }
+  footer .pie-text h3 {
+    margin: 1rem 0;
+  }
+  footer .pie-list {
+    display: flex;
+    justify-content: center;
+    flex-basis: 20%;
+    align-items: center;
+  }
+  footer .pie-list img {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+    justify-items: center;
+  }
+}
+:root {
+  --color-principal: #ec5749;
+  --color-letra-subtitle: #E59890;
+  --background-color-subtitle: #c55347;
+  --font-family-principal: brittany;
+  --font-family-alterna: "Dancing Script", cursive;
+}
+
+header #links:hover {
+  text-decoration: underline;
+  font-size: 110%;
+  color: var(--background-color-subtitle);
+}
+header #banner2 li:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-principal);
+  font-size: 110%;
+}
+
+body a p:hover {
+  text-decoration: underline;
+  font-size: 110%;
+}
+body a img:hover {
+  background-color: var(--background-color-subtitle);
+  padding: 0.5rem;
+  filter: opacity(40%);
+}
+body a:active {
+  text-decoration: underline;
+  background: linear-gradient(to right, var(--color-principal), #e48ead, var(--background-color-subtitle));
+  border-radius: 2rem;
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
 }
 
 /*# sourceMappingURL=styles.css.map */
