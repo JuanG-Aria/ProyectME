@@ -8,9 +8,8 @@
     font-family: brittany;
     src: url('/font/BrittanySignature.ttf');
 }
-
+@import 'complementos/variables';
 @import "secciones/header";
 @import "secciones/body";
 @import "secciones/footer";
-@import 'complementos/variables';
 @import 'complementos/animaciones';
