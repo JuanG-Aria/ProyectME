@@ -226,7 +226,9 @@ body {
     border-radius: 2rem;
   }
   body .principal {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
     justify-content: center;
     font-family: brittany;
     font-size: 2rem;
@@ -239,8 +241,8 @@ body {
     text-decoration: none;
   }
   body .principal img {
-    height: 27rem;
-    width: 27rem;
+    height: 25rem;
+    width: 25rem;
     border-radius: 1rem;
   }
   body .principal p {
@@ -284,22 +286,43 @@ body {
   }
   body .contenedor-lisos {
     display: flex;
+    flex-wrap: wrap;
     margin: 0 2rem;
+    justify-content: center;
   }
-  body .contenedor-lisos img {
-    height: 15rem;
-    width: 15rem;
+  body .contenedor-lisos .img-lisos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    justify-content: center;
+    justify-items: center;
+  }
+  body .contenedor-lisos .img-lisos img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1rem;
+    margin: 0.3rem;
   }
   body .contenedor-diseños {
-    margin-top: 1rem;
     display: flex;
+    flex-wrap: wrap;
+    margin: 0 2rem;
+    justify-content: center;
   }
   body .contenedor-diseños .img-diseños {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    justify-content: center;
+    justify-items: center;
   }
   body .contenedor-diseños .img-diseños img {
-    height: 15rem;
-    width: 15rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1rem;
+    margin: 0.3rem;
   }
   body .contenedor-diseños h3 {
     padding: 1rem;
@@ -373,7 +396,289 @@ body {
     font-family: var(--font-family-alterna);
   }
   body .contenedor-promociones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+  }
+  body .contenedor-promociones img {
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem 2rem;
+  }
+  body .contenedor-promociones p {
+    display: flex;
+    margin: 1rem 2rem;
+    font-family: var(--font-family-alterna);
+  }
+  body .contenedor-promociones h3 {
+    font-family: var(--font-family-alterna);
+  }
+  body .contenedor-promociones .disclaimer {
+    display: flex;
+    justify-content: center;
+    background-color: #E59890;
+    margin: 1rem 0;
+  }
+  body .contenedor-promociones .selector-descuento {
     display: grid;
+    justify-content: center;
+  }
+  body .contenedor-promociones .selector-descuento .itemm {
+    flex-wrap: wrap;
+  }
+  body .contenedor-promociones .promo {
+    display: grid;
+    justify-content: center;
+  }
+  body .contenedor-promociones .promo img {
+    display: flex;
+    justify-content: center;
+  }
+  body .somos p {
+    display: flex;
+    margin: 1rem 2rem;
+    font-family: var(--font-family-alterna);
+  }
+  body .podologia, body .podologia-que-es {
+    margin: 0 2rem;
+  }
+  body .podologia .contenedor-img-pod, body .podologia-que-es .contenedor-img-pod {
+    display: flex;
+    justify-content: center;
+  }
+  body .podologia .contenedor-img-pod img, body .podologia-que-es .contenedor-img-pod img {
+    height: 90%;
+    width: 90%;
+  }
+  body .podologia .contenedor-img-pod #benf, body .podologia-que-es .contenedor-img-pod #benf {
+    margin-bottom: 1rem;
+  }
+  body .benef-mas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 2rem;
+  }
+  body .benef-mas img {
+    height: 80%;
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+  body .creadora {
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem;
+    margin-bottom: 1rem;
+  }
+  body .creadora img {
+    height: 20rem;
+    width: 30rem;
+  }
+  body .mapa {
+    margin: 0 2rem;
+  }
+  body .mapa iframe {
+    width: 25rem;
+    height: 25rem;
+    margin-top: 0.5rem;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 1199px) {
+  body h2 {
+    color: #E59890;
+    font-family: brittany;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: #c55347;
+    background-position: center center;
+    background-size: 40% 60%;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+  }
+  body .contenido .contenido-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 1rem;
+    margin: 0 1rem;
+  }
+  body .contenido .contenido-img .principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: brittany;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 0.5rem;
+  }
+  body .contenido .contenido-img .principal a {
+    text-decoration: none;
+  }
+  body .contenido .contenido-img .principal img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1rem;
+  }
+  body .contenido .contenido-img .principal p {
+    position: absolute;
+    color: black;
+    background-color: rgba(197, 84, 71, 0.5019607843);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+  }
+  body .contenido .contenido-text {
+    display: block;
+    justify-content: center;
+  }
+  body .contenido .contenido-text p {
+    background-color: rgba(197, 84, 71, 0.5019607843);
+    margin: 0 2rem;
+  }
+  body .contenido .contenido-text .somos-promo {
+    margin-bottom: 0.5rem;
+  }
+  body h3 {
+    color: #E59890;
+    background-color: #c55347;
+    margin: 0 2rem;
+    font-family: brittany;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 1rem;
+  }
+  body a {
+    color: #993024;
+    font-family: brittany;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+  }
+  body .contenedor-diseños {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-items: center;
+    padding-top: 1rem;
+    margin: 0 2rem;
+  }
+  body .contenedor-diseños .img-diseños {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  body .contenedor-diseños .img-diseños img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1rem;
+  }
+  body .contenedor-diseños h3 {
+    padding: 1rem;
+  }
+  body .text-diseños {
+    display: inline;
+    justify-content: center;
+    text-decoration: none;
+  }
+  body .text-diseños div {
+    display: flex;
+    justify-content: center;
+  }
+  body .text-diseños div ul {
+    list-style: none;
+    background-color: var(--color-letra-subtitle);
+    border-radius: 2rem;
+    padding: 0;
+    margin: 0rem 2rem;
+  }
+  body .contenedor-text-lisos {
+    display: inline;
+    justify-content: center;
+    text-decoration: none;
+  }
+  body .contenedor-text-lisos h3 {
+    padding: 1rem;
+  }
+  body .contenedor-text-lisos .colors {
+    background-color: var(--color-letra-subtitle);
+    margin: 0rem 2rem;
+    border-radius: 2rem;
+  }
+  body .contenedor-lisos {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-items: center;
+    padding-top: 1rem;
+    margin: 0 2rem;
+  }
+  body .contenedor-lisos .img-lisos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  body .contenedor-lisos .img-lisos img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1rem;
+  }
+  body .que-es-semi, body .otra-opcion, body .comentarios, body .somos {
+    margin: 0 2rem;
+    color: black;
+    text-align: center;
+    font-family: var(--font-family-alterna);
+    font-size: 1rem;
+  }
+  body .colors, body .list-diseños {
+    font-family: var(--font-family-alterna);
+    font-size: 1rem;
+    text-align: center;
+  }
+  body .comentarios {
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+  }
+  body .comentarios .caja-de-comentarios textarea, body .comentarios .correo-enviar input {
+    width: 35rem;
+    border: #c55347 solid 0.1rem;
+  }
+  body .comentarios .correo-enviar input {
+    height: 1.5rem;
+    margin-bottom: 0.3rem;
+  }
+  body .masajes p, body .nuestros-masajes p, body .precios-masajes p {
+    display: flex;
+    margin: 1rem 2rem;
+    font-family: var(--font-family-alterna);
+  }
+  body .precios-masajes {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family-alterna);
+    margin-bottom: 1.5rem;
+  }
+  body .podologia p, body .podologia-que-es p {
+    display: flex;
+    margin: 1rem 2rem;
+    font-family: var(--font-family-alterna);
+  }
+  body .contenedor-promociones {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 2rem;
   }
@@ -406,11 +711,16 @@ body {
   body .contenedor-promociones .selector-descuento .itemm {
     flex-wrap: wrap;
   }
-  body .promo {
-    display: grid;
+  body .contenedor-promociones .promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .contenedor-promociones .promo img {
+    display: flex;
     justify-content: center;
   }
-  body .promo img {
+  body .contenedor-promociones .quien-sos {
     display: flex;
     justify-content: center;
   }
@@ -455,6 +765,8 @@ body {
     width: 35rem;
   }
   body .mapa {
+    display: flex;
+    justify-content: center;
     margin: 0 2rem;
   }
   body .mapa iframe {
@@ -463,7 +775,7 @@ body {
     margin-top: 0.5rem;
   }
 }
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 1200px) {
   body h2 {
     color: #E59890;
     font-family: brittany;
