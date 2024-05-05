@@ -241,8 +241,8 @@ body {
     text-decoration: none;
   }
   body .principal img {
-    height: 25rem;
     width: 25rem;
+    height: 25rem;
     border-radius: 1rem;
   }
   body .principal p {
@@ -299,8 +299,8 @@ body {
     justify-items: center;
   }
   body .contenedor-lisos .img-lisos img {
-    height: 20rem;
     width: 20rem;
+    height: 20rem;
     border-radius: 1rem;
     margin: 0.3rem;
   }
@@ -319,8 +319,8 @@ body {
     justify-items: center;
   }
   body .contenedor-diseños .img-diseños img {
-    height: 20rem;
     width: 20rem;
+    height: 20rem;
     border-radius: 1rem;
     margin: 0.3rem;
   }
@@ -406,6 +406,7 @@ body {
     justify-content: center;
     width: 20rem;
     height: 20rem;
+    border-radius: 1rem;
     margin: 1rem 2rem;
   }
   body .contenedor-promociones p {
@@ -450,8 +451,9 @@ body {
     justify-content: center;
   }
   body .podologia .contenedor-img-pod img, body .podologia-que-es .contenedor-img-pod img {
-    height: 90%;
     width: 90%;
+    height: 90%;
+    border-radius: 0;
   }
   body .podologia .contenedor-img-pod #benf, body .podologia-que-es .contenedor-img-pod #benf {
     margin-bottom: 1rem;
@@ -463,8 +465,9 @@ body {
     margin: 0 2rem;
   }
   body .benef-mas img {
-    height: 80%;
     width: 80%;
+    height: 80%;
+    border-radius: 0;
     margin-bottom: 1rem;
   }
   body .creadora {
@@ -474,8 +477,9 @@ body {
     margin-bottom: 1rem;
   }
   body .creadora img {
-    height: 20rem;
     width: 30rem;
+    height: 20rem;
+    border-radius: 0;
   }
   body .mapa {
     margin: 0 2rem;
@@ -483,6 +487,7 @@ body {
   body .mapa iframe {
     width: 25rem;
     height: 25rem;
+    border-radius: 0;
     margin-top: 0.5rem;
   }
 }
@@ -522,8 +527,8 @@ body {
     text-decoration: none;
   }
   body .contenido .contenido-img .principal img {
-    height: 20rem;
     width: 20rem;
+    height: 20rem;
     border-radius: 1rem;
   }
   body .contenido .contenido-img .principal p {
@@ -580,8 +585,8 @@ body {
     grid-gap: 1rem;
   }
   body .contenedor-diseños .img-diseños img {
-    height: 20rem;
     width: 20rem;
+    height: 20rem;
     border-radius: 1rem;
   }
   body .contenedor-diseños h3 {
@@ -631,8 +636,8 @@ body {
     grid-gap: 1rem;
   }
   body .contenedor-lisos .img-lisos img {
-    height: 20rem;
     width: 20rem;
+    height: 20rem;
     border-radius: 1rem;
   }
   body .que-es-semi, body .otra-opcion, body .comentarios, body .somos {
@@ -687,6 +692,7 @@ body {
     justify-content: center;
     width: 25rem;
     height: 25rem;
+    border-radius: 1rem;
     margin: 1rem 2rem;
   }
   body .contenedor-promociones p {
@@ -737,8 +743,9 @@ body {
     justify-content: center;
   }
   body .podologia .contenedor-img-pod img, body .podologia-que-es .contenedor-img-pod img {
-    height: 50%;
     width: 50%;
+    height: 50%;
+    border-radius: 1rem;
   }
   body .podologia .contenedor-img-pod #benf, body .podologia-que-es .contenedor-img-pod #benf {
     margin-bottom: 1rem;
@@ -750,8 +757,9 @@ body {
     margin: 0 2rem;
   }
   body .benef-mas img {
-    height: 50%;
     width: 50%;
+    height: 50%;
+    border-radius: 1rem;
     margin-bottom: 1rem;
   }
   body .creadora {
@@ -761,8 +769,9 @@ body {
     margin-bottom: 1rem;
   }
   body .creadora img {
-    height: 25rem;
     width: 35rem;
+    height: 25rem;
+    border-radius: 1rem;
   }
   body .mapa {
     display: flex;
@@ -770,8 +779,9 @@ body {
     margin: 0 2rem;
   }
   body .mapa iframe {
-    width: 27rem;
+    width: 37rem;
     height: 27rem;
+    border-radius: 0;
     margin-top: 0.5rem;
   }
 }
@@ -810,8 +820,8 @@ body {
     text-decoration: none;
   }
   body .contenido .contenido-img .principal img {
-    height: 27rem;
     width: 27rem;
+    height: 27rem;
     border-radius: 1rem;
   }
   body .contenido .contenido-img .principal p {
@@ -868,8 +878,9 @@ body {
     grid-gap: 1rem;
   }
   body .contenedor-diseños .img-diseños img {
-    height: 25rem;
     width: 25rem;
+    height: 25rem;
+    border-radius: 1rem;
   }
   body .contenedor-diseños h3 {
     padding: 1rem;
@@ -918,8 +929,9 @@ body {
     grid-gap: 1rem;
   }
   body .contenedor-lisos .img-lisos img {
-    height: 25rem;
     width: 25rem;
+    height: 25rem;
+    border-radius: 1rem;
   }
   body .que-es-semi, body .otra-opcion, body .comentarios, body .somos {
     margin: 0 2rem;
@@ -973,6 +985,7 @@ body {
     justify-content: center;
     width: 25rem;
     height: 25rem;
+    border-radius: 1rem;
     margin: 1rem 2rem;
   }
   body .contenedor-promociones p {
@@ -1023,8 +1036,9 @@ body {
     justify-content: center;
   }
   body .podologia .contenedor-img-pod img, body .podologia-que-es .contenedor-img-pod img {
-    height: 50%;
     width: 50%;
+    height: 50%;
+    border-radius: 1rem;
   }
   body .podologia .contenedor-img-pod #benf, body .podologia-que-es .contenedor-img-pod #benf {
     margin-bottom: 1rem;
@@ -1036,8 +1050,9 @@ body {
     margin: 0 2rem;
   }
   body .benef-mas img {
-    height: 50%;
     width: 50%;
+    height: 50%;
+    border-radius: 0;
     margin-bottom: 1rem;
   }
   body .creadora {
@@ -1047,8 +1062,9 @@ body {
     margin-bottom: 1rem;
   }
   body .creadora img {
-    height: 25rem;
-    width: 35rem;
+    width: 40rem;
+    height: 30rem;
+    border-radius: 1rem;
   }
   body .mapa {
     display: flex;
@@ -1056,107 +1072,43 @@ body {
     margin: 0 2rem;
   }
   body .mapa iframe {
-    width: 27rem;
-    height: 27rem;
+    width: 47rem;
+    height: 35rem;
+    border-radius: 0;
     margin-top: 0.5rem;
   }
 }
-@media screen and (max-width: 500px) {
-  footer {
-    margin-top: 0.5rem;
-    display: flex;
-    background-color: #c55347;
-  }
-  footer .pie-de-pagina {
-    display: flex;
-    width: 100%;
-  }
-  footer .pie-text {
-    display: flex;
-    flex-basis: 65%;
-    justify-content: center;
-  }
-  footer .pie-text h3 {
-    margin: 1rem 0;
-  }
-  footer .pie-list {
-    display: flex;
-    justify-content: center;
-    flex-basis: 20%;
-    align-items: center;
-  }
-  footer .pie-list img {
-    display: flex;
-    width: 3rem;
-    height: 3rem;
-    margin-right: 0.5rem;
-    justify-items: center;
-  }
+footer {
+  margin-top: 0.5rem;
+  display: flex;
+  background-color: #c55347;
 }
-@media screen and (min-width: 501px) and (max-width: 1199px) {
-  footer {
-    margin-top: 0.5rem;
-    display: flex;
-    background-color: #c55347;
-  }
-  footer .pie-de-pagina {
-    display: flex;
-    width: 100%;
-  }
-  footer .pie-text {
-    display: flex;
-    flex-basis: 65%;
-    justify-content: center;
-  }
-  footer .pie-text h3 {
-    margin: 1rem 0;
-  }
-  footer .pie-list {
-    display: flex;
-    justify-content: center;
-    flex-basis: 20%;
-    align-items: center;
-  }
-  footer .pie-list img {
-    display: flex;
-    width: 3rem;
-    height: 3rem;
-    margin-right: 0.5rem;
-    justify-items: center;
-  }
+footer .pie-de-pagina {
+  display: flex;
+  width: 100%;
 }
-@media screen and (min-width: 1200px) {
-  footer {
-    margin-top: 0.5rem;
-    display: flex;
-    background-color: #c55347;
-  }
-  footer .pie-de-pagina {
-    display: flex;
-    width: 100%;
-  }
-  footer .pie-text {
-    display: flex;
-    flex-basis: 65%;
-    justify-content: center;
-  }
-  footer .pie-text h3 {
-    margin: 1rem 0;
-  }
-  footer .pie-list {
-    display: flex;
-    justify-content: center;
-    flex-basis: 20%;
-    align-items: center;
-  }
-  footer .pie-list img {
-    display: flex;
-    width: 3rem;
-    height: 3rem;
-    margin-right: 0.5rem;
-    justify-items: center;
-  }
+footer .pie-text {
+  display: flex;
+  flex-basis: 65%;
+  justify-content: center;
 }
+footer .pie-text h3 {
+  margin: 1rem 0;
+}
+footer .pie-list {
+  display: flex;
+  justify-content: center;
+  flex-basis: 20%;
+  align-items: center;
+}
+footer .pie-list img {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 0.5rem;
+  justify-items: center;
+}
+
 header #links:hover {
   text-decoration: underline;
   font-size: 110%;
