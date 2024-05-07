@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: brittany;
-  src: url("/font/BrittanySignature.ttf");
+  src: url("../font/BrittanySignature.ttf");
 }
 :root {
   --color-principal: #ec5749;
