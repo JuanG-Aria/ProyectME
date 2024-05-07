@@ -9,6 +9,14 @@
   font-family: brittany;
   src: url("../font/BrittanySignature.ttf");
 }
+body {
+  background-image: url(../img/fondo-rosa.avif);
+}
+
+header {
+  background-image: url(../img/manocorazon3.jpg);
+}
+
 :root {
   --color-principal: #ec5749;
   --color-letra-subtitle: #E59890;
